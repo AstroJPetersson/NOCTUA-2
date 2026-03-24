@@ -38,16 +38,19 @@
 html,
 body {
   overflow-x: hidden;
+  background-image: url("JPG-Noctua-Gradient-Medium.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 html {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: "Space Grotesk", Georgia, "Times New Roman", serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Space Grotesk", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  color: #313131;
+  color: #F3E7F7;
   letter-spacing: -.025rem;
 }
 
@@ -97,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
-  border-bottom: 1px solid #eee;
+  border-bottom: 0px solid #eee;
 }
 .masthead-title {
   margin-top: 0;
@@ -148,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Space Grotesk", Helvetica, Arial, sans-serif;
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
   background-color: #202020;
@@ -304,6 +307,9 @@ a.sidebar-nav-item:focus {
 
 .page,
 .post {
+  background-color: #0F052390;
+  border-radius: 10px;
+  padding: 2%;
   margin-bottom: 4em;
 }
 
@@ -311,7 +317,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: #F3E7F7;
 }
 .page-title,
 .post-title {
@@ -363,7 +369,7 @@ a.sidebar-nav-item:focus {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Space Grotesk", Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: center;
 }
@@ -555,4 +561,17 @@ a.pagination-item:hover {
 /* Only one tweak for a reverse layout */
 .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
   box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
+}
+
+/*
+ * NOCTUA specific style options
+ */
+.noctua {
+  background-color: #0F052390;
+  border-radius: 10px;
+  color: #F3E7F7;
+  text-align: center;
+  font-size: 110%;
+  padding: 2%;
+  margin-bottom: 10%;
 }
