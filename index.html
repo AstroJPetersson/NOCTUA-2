@@ -4,7 +4,7 @@ title: Home
 ---
 
 {% if paginator.page == 1 %}
-<img src="public/PNG-Noctua-Logo-RGB-Air.png" style="padding-bottom: 5%;" alt="Alt text">
+<img src="public/PNG-Noctua-Logo-RGB-Space.png" style="padding-bottom: 5%;" alt="Alt text">
 
 <div class="noctua">
 EXPLORING THE FORMATION AND EVOLUTION OF GALAXIES AND THEIR MASSIVE BLACK HOLES 
@@ -15,6 +15,9 @@ THROUGHOUT COSMIC TIME, USING RADIATION-MAGNETO-HYDRODYNAMIC SIMULATIONS
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
+    {% if paginator.page == 1 %}
+    <h1 class="post-news">Latest News</h1>
+    {% endif %}
     <h1 class="post-title">
       <a href="{{ post.url | absolute_url }}">
         {{ post.title }}

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NOCTUA
+title: Launch of the webpage
 ---
 
-# NOCTUA
+The official NOCTUA webpage is now live! 
